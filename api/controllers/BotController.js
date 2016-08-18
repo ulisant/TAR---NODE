@@ -7,6 +7,7 @@
 
  module.exports = {
  	botTar: function(req, res){
+    console.log("aqui esta get");
  		if(req.query['hub.verify_token'] === 'my_voice_is_my_password_verify_me'){
  			res.send(req.query['hub.challenge'])
  		}
