@@ -4,6 +4,8 @@
  * @description :: Server-side logic for managing bots
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
+ const request = require('request')
+
 
  module.exports = {
  	botTar: function(req, res){
@@ -36,7 +38,7 @@
  		}
  		res.sendStatus(200)
  	}
-  
+
  };
 
  const token = "EAARKbs0sofEBAFkGwPtq7iT9bvHZC7gx5c2YdBn2lNWRVfYOlLwxg2TJKmofEExTw4Op6cc1d6ZCW9cVrkq40EXd6kxJDJ28SZCjkW0IxhQWnrL2tl88jX2dXzqZAaoShtWZCPPnrJQME8qICgDoyb1P2fQRZAtPGwokfONAa5qgZDZD"

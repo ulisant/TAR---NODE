@@ -20,6 +20,7 @@
     "grunt-sync": "0.5.2",
     "include-all": "~0.1.6",
     "rc": "1.0.1",
+    "request": "^2.74.0",
     "sails": "~0.12.4",
     "sails-disk": "~0.10.9"
   },
