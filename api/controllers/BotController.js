@@ -42,7 +42,7 @@
 
  };
 
- const token = "EAARKbs0sofEBAFkGwPtq7iT9bvHZC7gx5c2YdBn2lNWRVfYOlLwxg2TJKmofEExTw4Op6cc1d6ZCW9cVrkq40EXd6kxJDJ28SZCjkW0IxhQWnrL2tl88jX2dXzqZAaoShtWZCPPnrJQME8qICgDoyb1P2fQRZAtPGwokfONAa5qgZDZD"
+ const token = "EAAEjs8BATfMBALuTVc7oJWhInDmvecV02p0TFaOK03GvyBaJ0tJScDFjWJ33o9ErNuGlPlNOGn4xKqdBy8PQpzEvsj5n3u9aGzR8HInTtdlSrPxCbi4EwOpMu3SZBJHGqaQtpuc5MHHNsZBFEPY2ilI1fVSdnWSz3zsIcBngZDZD"
 
  function sendTextMessage(sender, text) {
  	var messageData = { text:text }
