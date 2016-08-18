@@ -35,7 +35,11 @@
  			}
  		}
  		res.sendStatus(200)
- 	}
+ 	},
+
+  testBot: function(req, res){
+    console.log("prueba post");
+  }
 
  };
 
