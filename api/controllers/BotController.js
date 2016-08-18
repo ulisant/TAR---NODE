@@ -36,7 +36,6 @@
  				continue
  			}
  		}
- 		res.sendStatus(200)
  	}
 
  };
