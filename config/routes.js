@@ -34,8 +34,7 @@ module.exports.routes = {
 
   '/': 'HomeController.getPosts',
   '/webhook': 'BotController.botTar',
-  'POST /webhook': 'BotController.msgEvents',
-  'POST /test': 'BotController.testBot'
+  'POST /tarant': 'BotController.msgEvents',
 
 
   /***************************************************************************

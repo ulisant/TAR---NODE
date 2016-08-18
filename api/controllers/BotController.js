@@ -8,7 +8,7 @@
  module.exports = {
  	botTar: function(req, res){
     console.log("aqui esta get");
- 		if(req.query['hub.verify_token'] === 'my_voice_is_my_password_verify_me'){
+ 		if(req.query['hub.verify_token'] === 'my_voice_is_my_password'){
  			res.send(req.query['hub.challenge'])
  		}
  		res.send('Error, wrong token')
@@ -35,15 +35,11 @@
  			}
  		}
  		res.sendStatus(200)
- 	},
-
-  testBot: function(req, res){
-    console.log("prueba post");
-  }
-
+ 	}
+  
  };
 
- const token = "EAAis6ZB24qiYBAA7prQaVgMxDoN8XD5g00SZC5VqO4RyPTP3STSYRGdWoCZCuY8zBYRszhttWjRjYSBKRh0HyGwDbmgx1kMPxsbZAHdbzZAzkRxLEOgMRSiU21VqqEg6yRDxfrjc5OCBOnBATC35pMXtRQKiLZAYZBb0h21vK6pgQZDZD"
+ const token = "EAARKbs0sofEBAFkGwPtq7iT9bvHZC7gx5c2YdBn2lNWRVfYOlLwxg2TJKmofEExTw4Op6cc1d6ZCW9cVrkq40EXd6kxJDJ28SZCjkW0IxhQWnrL2tl88jX2dXzqZAaoShtWZCPPnrJQME8qICgDoyb1P2fQRZAtPGwokfONAa5qgZDZD"
 
  function sendTextMessage(sender, text) {
  	var messageData = { text:text }
