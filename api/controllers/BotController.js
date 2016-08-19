@@ -21,6 +21,7 @@
  		var messaging_events = req.body.entry[0].messaging
     console.log(messaging_events);
  		for (var i = 0; i < messaging_events.length; i++) {
+      console.log("se manda");
  			var event = req.body.entry[0].messaging[i]
  			var sender = event.sender.id
  			if (event.message && event.message.text) {
